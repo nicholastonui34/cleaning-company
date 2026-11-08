@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en-KE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ===== SEO ===== -->
+  <title>HavenCraft Cleaners | Sofa, Carpet & Move-In Cleaning in Nairobi (Westlands, Kilimani)</title>
+  <meta name="description" content="Nairobi cleaning services for Westlands, Kilimani, Kileleshwa and Parklands. Sofa deep extraction from KES 2,500, carpet steam cleaning, move-in/move-out and Airbnb turnarounds. Vetted cleaners, eco-friendly products. Book on WhatsApp in 60 seconds." />
+  <meta name="keywords" content="Nairobi cleaning services, sofa cleaning Kilimani, move-in cleaning Westlands, carpet cleaning Nairobi, Airbnb cleaning Nairobi, deep cleaning Kileleshwa, upholstery cleaning Parklands" />
+  <meta name="robots" content="index, follow" />
+  <meta name="geo.region" content="KE-30" />
+  <meta name="geo.placename" content="Nairobi" />
+  <meta name="theme-color" content="#1E3A8A" />
+  <link rel="canonical" href="https://havencraftcleaners.co.ke/" />
+
+  <!-- OpenGraph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_KE" />
+  <meta property="og:site_name" content="HavenCraft Cleaners" />
+  <meta property="og:title" content="HavenCraft Cleaners | Nairobi's Uptown Property & Upholstery Care" />
+  <meta property="og:description" content="Sofa cleaning in Kilimani, move-in cleaning in Westlands, Airbnb turnarounds across Nairobi. Instant price estimate, book on WhatsApp." />
+  <meta property="og:url" content="https://havencraftcleaners.co.ke/" />
+  <meta property="og:image" content="https://havencraftcleaners.co.ke/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HavenCraft Cleaners | Nairobi Cleaning Services" />
+  <meta name="twitter:description" content="Sofa, carpet, move-in and Airbnb cleaning in Westlands, Kilimani, Kileleshwa and Parklands." />
+
+  <!-- Local business structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HouseCleaningService",
+    "name": "HavenCraft Cleaners",
+    "slogan": "Nairobi's Uptown Property & Upholstery Care",
+    "url": "https://havencraftcleaners.co.ke/",
+    "telephone": "+254700000000",
+    "priceRange": "KES 1,500 to KES 22,000",
+    "currenciesAccepted": "KES",
+    "paymentAccepted": "M-Pesa, Cash, Bank Transfer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Westlands, Nairobi",
+      "addressRegion": "Nairobi County",
+      "addressCountry": "KE"
+    },
+    "areaServed": [
+      {"@type": "Place", "name": "Westlands, Nairobi"},
+      {"@type": "Place", "name": "Kilimani, Nairobi"},
+      {"@type": "Place", "name": "Kileleshwa, Nairobi"},
+      {"@type": "Place", "name": "Parklands, Nairobi"}
+    ],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "07:00",
+      "closes": "19:00"
+    }],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Cleaning Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Sofa Deep Extraction Cleaning"}, "price": "2500", "priceCurrency": "KES"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Carpet & Rug Steam Cleaning"}, "price": "1500", "priceCurrency": "KES"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Move-In / Move-Out Deep Cleaning"}, "price": "8000", "priceCurrency": "KES"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Airbnb Rapid Turnaround Cleaning"}, "price": "2000", "priceCurrency": "KES"},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Routine Home Maintenance Cleaning"}, "price": "3500", "priceCurrency": "KES"}
+      ]
+    }
+  }
+  </script>
+
+  <!-- ===== Styling ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            emerald: { DEFAULT: '#059669', 50: '#ECFDF5', 100: '#D1FAE5', 500: '#10B981', 600: '#059669', 700: '#047857', 800: '#065F46' },
+            navy:    { DEFAULT: '#1E3A8A', 50: '#EEF2FF', 100: '#DBE4FB', 700: '#1E3A8A', 800: '#172E6E', 900: '#0F1F4D', 950: '#0A1533' },
+            amber:   { DEFAULT: '#F59E0B', 50: '#FFFBEB', 100: '#FEF3C7', 400: '#FBBF24', 500: '#F59E0B', 600: '#D97706' },
+            offwhite: '#F9FAFB'
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            display: ['Fraunces', 'Georgia', 'serif']
+          },
+          boxShadow: {
+            soft: '0 10px 40px -12px rgba(15, 31, 77, 0.18)',
+            lift: '0 24px 60px -20px rgba(15, 31, 77, 0.35)'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+    body { background: #F9FAFB; -webkit-font-smoothing: antialiased; }
+    .grain { background-image: radial-gradient(rgba(255,255,255,.06) 1px, transparent 1px); background-size: 18px 18px; }
+    .tab-btn[aria-selected="true"] { background: #1E3A8A; color: #fff; border-color: #1E3A8A; }
+    details[open] summary .chev { transform: rotate(180deg); }
+    details summary::-webkit-details-marker { display: none; }
+    .stepper button:disabled { opacity: .35; cursor: not-allowed; }
+    .fab-pulse::before { content: ""; position: absolute; inset: 0; border-radius: 9999px; background: #25D366; animation: pulse 2.4s ease-out infinite; z-index: -1; }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .55; } 100% { transform: scale(1.7); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .fab-pulse::before { animation: none; } }
+    .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+    /* Before/after slider */
+    .ba-wrap { position: relative; overflow: hidden; }
+    .ba-after { position: absolute; inset: 0; clip-path: inset(0 0 0 var(--pos, 50%)); }
+    .ba-handle { position: absolute; top: 0; bottom: 0; left: var(--pos, 50%); width: 3px; background: #fff; transform: translateX(-1px); pointer-events: none; }
+    .ba-range { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: ew-resize; }
+  </style>
+</head>
+
+<body class="font-sans text-slate-800">
+
+<!-- ================= NAV ================= -->
+<header id="top" class="fixed inset-x-0 top-0 z-40 transition-all duration-300" data-nav>
+  <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+    <a href="#top" class="flex items-center gap-2.5" aria-label="HavenCraft Cleaners home">
+      <span class="grid h-10 w-10 place-items-center rounded-xl bg-emerald text-white shadow-soft">
+        <i class="fa-solid fa-house-chimney-window"></i>
+      </span>
+      <span class="leading-tight">
+        <span class="block font-display text-lg font-semibold text-white nav-ink">HavenCraft</span>
+        <span class="block text-[11px] font-semibold uppercase tracking-[0.18em] text-emerald-100 nav-sub">Cleaners · Nairobi</span>
+      </span>
+    </a>
+
+    <ul class="hidden items-center gap-8 text-sm font-medium lg:flex">
+      <li><a class="nav-link text-white/85 hover:text-white" href="#services">Services</a></li>
+      <li><a class="nav-link text-white/85 hover:text-white" href="#why">Why Us</a></li>
+      <li><a class="nav-link text-white/85 hover:text-white" href="#estimator">Price Estimator</a></li>
+      <li><a class="nav-link text-white/85 hover:text-white" href="#reviews">Reviews</a></li>
+      <li><a class="nav-link text-white/85 hover:text-white" href="#faq">FAQ</a></li>
+    </ul>
+
+    <div class="flex items-center gap-2">
+      <a href="tel:+254700000000" class="hidden items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-white/90 hover:text-white nav-link md:flex">
+        <i class="fa-solid fa-phone text-xs"></i> 0700 000 000
+      </a>
+      <button type="button" data-open-booking class="rounded-full bg-amber px-5 py-2.5 text-sm font-bold text-navy-900 shadow-soft transition hover:bg-amber-400">
+        Book Now
+      </button>
+      <button type="button" id="menuBtn" class="ml-1 grid h-10 w-10 place-items-center rounded-full text-white nav-link lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobileMenu" class="hidden border-t border-slate-200 bg-white px-4 pb-6 pt-2 shadow-lift lg:hidden">
+    <ul class="space-y-1 text-base font-semibold text-navy-900">
+      <li><a class="block rounded-lg px-3 py-3 hover:bg-slate-100" href="#services">Services & Pricing</a></li>
+      <li><a class="block rounded-lg px-3 py-3 hover:bg-slate-100" href="#why">Why HavenCraft</a></li>
+      <li><a class="block rounded-lg px-3 py-3 hover:bg-slate-100" href="#estimator">Instant Cost Estimator</a></li>
+      <li><a class="block rounded-lg px-3 py-3 hover:bg-slate-100" href="#reviews">Reviews</a></li>
+      <li><a class="block rounded-lg px-3 py-3 hover:bg-slate-100" href="#faq">FAQ</a></li>
+      <li><a class="block rounded-lg px-3 py-3 hover:bg-slate-100" href="tel:+254700000000"><i class="fa-solid fa-phone mr-2 text-emerald"></i>Call 0700 000 000</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="relative overflow-hidden bg-navy-900 pb-20 pt-32 text-white sm:pt-36 lg:pb-28">
+  <div class="grain pointer-events-none absolute inset-0"></div>
+  <div class="pointer-events-none absolute -right-40 -top-40 h-[520px] w-[520px] rounded-full bg-emerald/25 blur-3xl"></div>
+  <div class="pointer-events-none absolute -bottom-48 -left-32 h-[420px] w-[420px] rounded-full bg-navy-700/60 blur-3xl"></div>
+
+  <div class="relative mx-auto grid max-w-7xl items-center gap-14 px-4 sm:px-6 lg:grid-cols-12 lg:px-8">
+    <div class="lg:col-span-7">
+      <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-emerald-100">
+        <span class="h-2 w-2 rounded-full bg-emerald-500"></span> Westlands · Kilimani · Kileleshwa · Parklands
+      </p>
+      <h1 class="font-display text-4xl font-semibold leading-[1.08] sm:text-5xl lg:text-6xl">
+        Nairobi's Uptown Property <span class="text-amber">&amp;</span> Upholstery Care
+      </h1>
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
+        Vetted cleaners, eco-friendly detergents and high-extraction machines that pull out the dirt your vacuum leaves behind. Sofas, carpets, move-ins and Airbnb turnarounds, booked in 60 seconds.
+      </p>
+
+      <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+        <a href="#estimator" class="inline-flex items-center justify-center gap-2 rounded-full bg-emerald px-7 py-4 text-base font-bold text-white shadow-lift transition hover:bg-emerald-700">
+          <i class="fa-solid fa-calculator"></i> Get an Instant Price
+        </a>
+        <a href="https://wa.me/254700000000?text=Hi%20HavenCraft,%20I'd%20like%20to%20inquire%20about%20a%20cleaning%20session" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 rounded-full border border-white/25 px-7 py-4 text-base font-semibold text-white transition hover:bg-white/10">
+          <i class="fa-brands fa-whatsapp text-lg text-[#25D366]"></i> Chat on WhatsApp
+        </a>
+      </div>
+
+      <dl class="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-8">
+        <div><dt class="text-xs uppercase tracking-wider text-slate-400">Sofas from</dt><dd class="mt-1 font-display text-2xl font-semibold">KES 2,500</dd></div>
+        <div><dt class="text-xs uppercase tracking-wider text-slate-400">Same-week slots</dt><dd class="mt-1 font-display text-2xl font-semibold">Mon to Sat</dd></div>
+        <div><dt class="text-xs uppercase tracking-wider text-slate-400">Payment</dt><dd class="mt-1 font-display text-2xl font-semibold">M-Pesa</dd></div>
+      </dl>
+    </div>
+
+    <!-- Before/after card -->
+    <div class="lg:col-span-5">
+      <div class="relative rounded-3xl bg-white p-3 text-slate-800 shadow-lift">
+        <div class="ba-wrap aspect-[4/3] rounded-2xl" id="baWrap" style="--pos:50%">
+          <!-- BEFORE -->
+          <div class="absolute inset-0 grid place-items-center rounded-2xl" style="background: linear-gradient(135deg,#8a7a5c,#6b5b3e 55%,#4f432d);">
+            <svg viewBox="0 0 200 120" class="w-4/5 opacity-90" aria-hidden="true">
+              <rect x="20" y="40" width="160" height="50" rx="10" fill="#a08c66"/>
+              <rect x="10" y="50" width="30" height="45" rx="8" fill="#8f7b55"/>
+              <rect x="160" y="50" width="30" height="45" rx="8" fill="#8f7b55"/>
+              <rect x="30" y="20" width="140" height="35" rx="10" fill="#9a8660"/>
+              <circle cx="70" cy="62" r="9" fill="#5e4e32" opacity=".7"/><circle cx="120" cy="70" r="12" fill="#5e4e32" opacity=".55"/>
+              <circle cx="95" cy="35" r="7" fill="#5e4e32" opacity=".6"/><circle cx="150" cy="65" r="6" fill="#5e4e32" opacity=".6"/>
+            </svg>
+            <span class="absolute left-3 top-3 rounded-full bg-black/45 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">Before</span>
+          </div>
+          <!-- AFTER -->
+          <div class="ba-after grid place-items-center rounded-2xl" style="background: linear-gradient(135deg,#e9f7f1,#cfeee1 55%,#b5e2cf);">
+            <svg viewBox="0 0 200 120" class="w-4/5" aria-hidden="true">
+              <rect x="20" y="40" width="160" height="50" rx="10" fill="#f4efe4"/>
+              <rect x="10" y="50" width="30" height="45" rx="8" fill="#ebe4d4"/>
+              <rect x="160" y="50" width="30" height="45" rx="8" fill="#ebe4d4"/>
+              <rect x="30" y="20" width="140" height="35" rx="10" fill="#f8f4ec"/>
+              <path d="M55 30l3 6 6 1-5 4 1 6-5-3-5 3 1-6-5-4 6-1z" fill="#F59E0B"/>
+              <path d="M140 60l2 4 4 1-3 3 1 4-4-2-4 2 1-4-3-3 4-1z" fill="#059669"/>
+            </svg>
+            <span class="absolute right-3 top-3 rounded-full bg-emerald px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">After</span>
+          </div>
+          <div class="ba-handle"><span class="absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-white text-navy shadow-lift"><i class="fa-solid fa-arrows-left-right"></i></span></div>
+          <input type="range" min="0" max="100" value="50" class="ba-range" id="baRange" aria-label="Drag to compare before and after cleaning" />
+        </div>
+        <div class="flex items-center justify-between gap-4 px-2 pb-1 pt-4">
+          <div>
+            <p class="text-sm font-bold text-navy-900">3-Seater Deep Extraction</p>
+            <p class="text-xs text-slate-500">Hot-water extraction · Dry in 4 to 6 hrs</p>
+          </div>
+          <p class="font-display text-xl font-semibold text-emerald">KES 2,500</p>
+        </div>
+      </div>
+      <p class="mt-3 text-center text-xs text-slate-400">Drag the slider to compare. Swap in your real job photos before launch.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Trust strip -->
+<section class="border-b border-slate-200 bg-white">
+  <div class="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-4 py-8 text-sm sm:px-6 md:grid-cols-4 lg:px-8">
+    <div class="flex items-center gap-3"><i class="fa-solid fa-user-shield text-xl text-emerald"></i><span><b class="block text-navy-900">ID & reference vetted</b><span class="text-slate-500">Every cleaner, every time</span></span></div>
+    <div class="flex items-center gap-3"><i class="fa-solid fa-leaf text-xl text-emerald"></i><span><b class="block text-navy-900">Eco-friendly products</b><span class="text-slate-500">Safe for kids & pets</span></span></div>
+    <div class="flex items-center gap-3"><i class="fa-solid fa-mobile-screen-button text-xl text-emerald"></i><span><b class="block text-navy-900">Pay with M-Pesa</b><span class="text-slate-500">After the job is done</span></span></div>
+    <div class="flex items-center gap-3"><i class="fa-solid fa-rotate-left text-xl text-emerald"></i><span><b class="block text-navy-900">48-hour re-clean promise</b><span class="text-slate-500">Not happy? We come back</span></span></div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="py-20 lg:py-28">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="reveal mx-auto max-w-2xl text-center">
+      <p class="text-sm font-bold uppercase tracking-[0.18em] text-emerald">Services & Pricing</p>
+      <h2 class="mt-3 font-display text-3xl font-semibold text-navy-900 sm:text-4xl">Clear prices. No surprises at the door.</h2>
+      <p class="mt-4 text-slate-600">Pick a service to see the full price list. All prices in KES and include detergents, equipment and transport within our core areas.</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="reveal mt-12 flex gap-2 overflow-x-auto pb-2 sm:justify-center" role="tablist" aria-label="Service categories" id="serviceTabs"></div>
+
+    <div class="reveal mt-8 grid gap-8 lg:grid-cols-5" id="servicePanel" role="tabpanel" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ================= WHY US ================= -->
+<section id="why" class="bg-white py-20 lg:py-28">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="grid gap-14 lg:grid-cols-12">
+      <div class="reveal lg:col-span-5">
+        <p class="text-sm font-bold uppercase tracking-[0.18em] text-emerald">Why HavenCraft</p>
+        <h2 class="mt-3 font-display text-3xl font-semibold text-navy-900 sm:text-4xl">Built for homes where standards are high and time is short.</h2>
+        <p class="mt-5 text-slate-600">Most of our clients work long hours, host guests, or are handing over keys on a deadline. We plan around that: fixed arrival windows, one point of contact on WhatsApp, and a finish you can check before you pay.</p>
+        <div class="mt-8 rounded-2xl border border-amber/40 bg-amber-50 p-5">
+          <p class="flex items-start gap-3 text-sm text-navy-900"><i class="fa-solid fa-star mt-0.5 text-amber"></i><span><b>Airbnb hosts:</b> ask about monthly retainer pricing for 8+ turnarounds. Same-day linen swaps and photo check-ins after every clean.</span></p>
+        </div>
+      </div>
+      <div class="grid gap-5 sm:grid-cols-2 lg:col-span-7">
+        <article class="reveal rounded-2xl border border-slate-200 p-6 transition hover:-translate-y-1 hover:shadow-soft">
+          <span class="grid h-12 w-12 place-items-center rounded-xl bg-emerald-50 text-xl text-emerald"><i class="fa-solid fa-id-card-clip"></i></span>
+          <h3 class="mt-5 text-lg font-bold text-navy-900">Vetted, uniformed team</h3>
+          <p class="mt-2 text-sm leading-relaxed text-slate-600">National ID checks, police clearance and two references before anyone enters your home. Same faces on repeat bookings.</p>
+        </article>
+        <article class="reveal rounded-2xl border border-slate-200 p-6 transition hover:-translate-y-1 hover:shadow-soft">
+          <span class="grid h-12 w-12 place-items-center rounded-xl bg-emerald-50 text-xl text-emerald"><i class="fa-solid fa-couch"></i></span>
+          <h3 class="mt-5 text-lg font-bold text-navy-900">High-extraction machines</h3>
+          <p class="mt-2 text-sm leading-relaxed text-slate-600">Hot-water extraction reaches deep into foam and fibre, then pulls the dirty water back out. You see it in the tank.</p>
+        </article>
+        <article class="reveal rounded-2xl border border-slate-200 p-6 transition hover:-translate-y-1 hover:shadow-soft">
+          <span class="grid h-12 w-12 place-items-center rounded-xl bg-emerald-50 text-xl text-emerald"><i class="fa-solid fa-seedling"></i></span>
+          <h3 class="mt-5 text-lg font-bold text-navy-900">Eco-friendly detergents</h3>
+          <p class="mt-2 text-sm leading-relaxed text-slate-600">Biodegradable, low-residue formulas. No harsh bleach smell left behind for your kids, pets or next guest.</p>
+        </article>
+        <article class="reveal rounded-2xl border border-slate-200 p-6 transition hover:-translate-y-1 hover:shadow-soft">
+          <span class="grid h-12 w-12 place-items-center rounded-xl bg-emerald-50 text-xl text-emerald"><i class="fa-regular fa-clock"></i></span>
+          <h3 class="mt-5 text-lg font-bold text-navy-900">Book in 60 seconds</h3>
+          <p class="mt-2 text-sm leading-relaxed text-slate-600">Get a price, pick a slot, confirm on WhatsApp. No call-backs, no site visit needed for standard jobs.</p>
+        </article>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <ol class="reveal mt-20 grid gap-6 rounded-3xl bg-navy-900 p-8 text-white sm:grid-cols-3 sm:p-10">
+      <li class="flex gap-4"><span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-amber font-bold text-navy-900">1</span><div><p class="font-bold">Get your price</p><p class="mt-1 text-sm text-slate-300">Use the estimator or send a photo on WhatsApp.</p></div></li>
+      <li class="flex gap-4"><span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-amber font-bold text-navy-900">2</span><div><p class="font-bold">Pick a slot</p><p class="mt-1 text-sm text-slate-300">Morning, midday or afternoon. Mon to Sat.</p></div></li>
+      <li class="flex gap-4"><span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-amber font-bold text-navy-900">3</span><div><p class="font-bold">Inspect, then pay</p><p class="mt-1 text-sm text-slate-300">Walk through the job and pay by M-Pesa.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= ESTIMATOR ================= -->
+<section id="estimator" class="py-20 lg:py-28">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="reveal mx-auto max-w-2xl text-center">
+      <p class="text-sm font-bold uppercase tracking-[0.18em] text-emerald">Instant Cost Estimator</p>
+      <h2 class="mt-3 font-display text-3xl font-semibold text-navy-900 sm:text-4xl">Build your clean. See the total.</h2>
+      <p class="mt-4 text-slate-600">Add what you need and the price updates live. Then send it straight to us on WhatsApp.</p>
+    </div>
+
+    <div class="reveal mt-8 flex flex-wrap justify-center gap-2" id="presets">
+      <span class="self-center text-xs font-semibold uppercase tracking-wider text-slate-400">Popular:</span>
+      <button type="button" data-preset="sofa3:1,move12:1" class="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-navy-900 hover:border-emerald hover:text-emerald">3-Seater Sofa + 2-Bed Move-In</button>
+      <button type="button" data-preset="sofa5:1,rug:2" class="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-navy-900 hover:border-emerald hover:text-emerald">L-Shape Sofa + 2 Rugs</button>
+      <button type="button" data-preset="bnb:4" class="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-navy-900 hover:border-emerald hover:text-emerald">4 Airbnb Turnarounds</button>
+    </div>
+
+    <div class="mt-10 grid gap-8 lg:grid-cols-3">
+      <div class="reveal space-y-4 lg:col-span-2" id="calcList"></div>
+
+      <aside class="reveal lg:sticky lg:top-24 lg:self-start">
+        <div class="overflow-hidden rounded-3xl bg-navy-900 text-white shadow-lift">
+          <div class="p-6 sm:p-7">
+            <p class="text-xs font-semibold uppercase tracking-[0.16em] text-emerald-100">Your estimate</p>
+            <p class="mt-3 font-display text-4xl font-semibold" id="calcTotal">KES 0</p>
+            <p class="mt-1 text-sm text-slate-400" id="calcRangeNote">Add a service to begin</p>
+
+            <label for="calcArea" class="mt-6 block text-xs font-semibold uppercase tracking-wider text-slate-400">Your area</label>
+            <select id="calcArea" class="mt-2 w-full rounded-xl border-0 bg-white/10 px-4 py-3 text-sm font-semibold text-white focus:ring-2 focus:ring-emerald">
+              <option class="text-slate-900" value="Westlands">Westlands</option>
+              <option class="text-slate-900" value="Kilimani">Kilimani</option>
+              <option class="text-slate-900" value="Kileleshwa">Kileleshwa</option>
+              <option class="text-slate-900" value="Parklands">Parklands</option>
+              <option class="text-slate-900" value="Lavington">Lavington (+KES 500 transport)</option>
+              <option class="text-slate-900" value="Other">Other Nairobi area (+KES 500 transport)</option>
+            </select>
+
+            <ul class="mt-6 space-y-2 border-t border-white/10 pt-5 text-sm" id="calcLines"></ul>
+          </div>
+          <div class="space-y-3 bg-navy-950 p-6 sm:p-7">
+            <button type="button" id="calcBook" class="flex w-full items-center justify-center gap-2 rounded-full bg-amber px-6 py-3.5 font-bold text-navy-900 transition hover:bg-amber-400 disabled:cursor-not-allowed disabled:opacity-50" disabled>
+              <i class="fa-regular fa-calendar-check"></i> Book this estimate
+            </button>
+            <button type="button" id="calcReset" class="w-full text-center text-xs font-semibold text-slate-400 hover:text-white">Clear selection</button>
+          </div>
+        </div>
+        <p class="mt-4 px-2 text-xs leading-relaxed text-slate-500">Estimates assume normal soiling. Heavy stains, pet urine or post-construction dust may add 10 to 20%, confirmed before we start.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<!-- PLACEHOLDER REVIEWS: replace with real, consented client reviews before going live. -->
+<section id="reviews" class="bg-white py-20 lg:py-28">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="reveal flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
+      <div class="max-w-xl">
+        <p class="text-sm font-bold uppercase tracking-[0.18em] text-emerald">Client Reviews</p>
+        <h2 class="mt-3 font-display text-3xl font-semibold text-navy-900 sm:text-4xl">What Nairobi homes say about us</h2>
+      </div>
+      <p class="flex items-center gap-2 text-sm text-slate-600"><span class="text-amber"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> Sample reviews for layout</p>
+    </div>
+
+    <div class="mt-12 grid gap-6 md:grid-cols-3">
+      <figure class="reveal flex flex-col rounded-2xl border border-slate-200 bg-offwhite p-7">
+        <div class="text-amber"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote class="mt-4 flex-1 leading-relaxed text-slate-700">"Our cream L-shape had two years of toddler life on it. The water in their tank was brown. The sofa now looks like the showroom. Booked on WhatsApp in a few minutes."</blockquote>
+        <figcaption class="mt-6 flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-emerald-100 font-bold text-emerald-800">WM</span><span><b class="block text-sm text-navy-900">Wanjiru M.</b><span class="text-xs text-slate-500">Kilimani · Sofa cleaning</span></span></figcaption>
+      </figure>
+      <figure class="reveal flex flex-col rounded-2xl border border-slate-200 bg-offwhite p-7">
+        <div class="text-amber"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote class="mt-4 flex-1 leading-relaxed text-slate-700">"I run three units in Westlands. They turn around a flat between a 10am checkout and a 2pm check-in and send photos of every room. My cleanliness scores went up."</blockquote>
+        <figcaption class="mt-6 flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-navy-100 font-bold text-navy">DO</span><span><b class="block text-sm text-navy-900">David O.</b><span class="text-xs text-slate-500">Westlands · Airbnb host</span></span></figcaption>
+      </figure>
+      <figure class="reveal flex flex-col rounded-2xl border border-slate-200 bg-offwhite p-7">
+        <div class="text-amber"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote class="mt-4 flex-1 leading-relaxed text-slate-700">"Moving out of a 3-bed in Kileleshwa, the landlord's agent signed off the inspection on the first walk-through. I got my full deposit back."</blockquote>
+        <figcaption class="mt-6 flex items-center gap-3"><span class="grid h-11 w-11 place-items-center rounded-full bg-amber-100 font-bold text-amber-600">SK</span><span><b class="block text-sm text-navy-900">Sarah K.</b><span class="text-xs text-slate-500">Kileleshwa · Move-out clean</span></span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="py-20 lg:py-28">
+  <div class="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:px-8">
+    <div class="reveal lg:col-span-4">
+      <p class="text-sm font-bold uppercase tracking-[0.18em] text-emerald">FAQ</p>
+      <h2 class="mt-3 font-display text-3xl font-semibold text-navy-900 sm:text-4xl">Good questions, straight answers</h2>
+      <p class="mt-4 text-slate-600">Something else on your mind? Message us and a real person replies, usually within 10 minutes during working hours.</p>
+      <a href="https://wa.me/254700000000?text=Hi%20HavenCraft,%20I'd%20like%20to%20inquire%20about%20a%20cleaning%20session" target="_blank" rel="noopener" class="mt-6 inline-flex items-center gap-2 font-bold text-emerald hover:text-emerald-700"><i class="fa-brands fa-whatsapp text-lg"></i> Ask on WhatsApp</a>
+    </div>
+    <div class="space-y-3 lg:col-span-8" id="faqList">
+      <details class="reveal group rounded-2xl border border-slate-200 bg-white p-6 open:shadow-soft">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-navy-900">How long does a sofa take to dry?<i class="fa-solid fa-chevron-down chev text-sm text-slate-400 transition"></i></summary>
+        <p class="mt-4 leading-relaxed text-slate-600">Usually 4 to 6 hours with windows open or a fan running. Our machines extract most of the water, so you can sit on it by evening. Leather is wipe-cleaned and conditioned, and is ready right away.</p>
+      </details>
+      <details class="reveal group rounded-2xl border border-slate-200 bg-white p-6 open:shadow-soft">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-navy-900">Do I need to be home during the clean?<i class="fa-solid fa-chevron-down chev text-sm text-slate-400 transition"></i></summary>
+        <p class="mt-4 leading-relaxed text-slate-600">For first visits we prefer someone is present to show us around. For repeat clients, Airbnb units and move-outs, you can leave keys with the caretaker or a lockbox. We send before and after photos either way.</p>
+      </details>
+      <details class="reveal group rounded-2xl border border-slate-200 bg-white p-6 open:shadow-soft">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-navy-900">What's included in a move-in or move-out clean?<i class="fa-solid fa-chevron-down chev text-sm text-slate-400 transition"></i></summary>
+        <p class="mt-4 leading-relaxed text-slate-600">Inside all cabinets and wardrobes, kitchen degreasing, oven and fridge, bathroom descaling, windows and tracks, skirting boards, light switches, balcony and a full floor scrub. It's the standard a landlord or agent checks against at handover.</p>
+      </details>
+      <details class="reveal group rounded-2xl border border-slate-200 bg-white p-6 open:shadow-soft">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-navy-900">How do I pay?<i class="fa-solid fa-chevron-down chev text-sm text-slate-400 transition"></i></summary>
+        <p class="mt-4 leading-relaxed text-slate-600">M-Pesa (Till number shared on confirmation), bank transfer or cash. Standard jobs are paid after you inspect the work. Move-in/move-out jobs above KES 15,000 take a 30% booking deposit to hold the date.</p>
+      </details>
+      <details class="reveal group rounded-2xl border border-slate-200 bg-white p-6 open:shadow-soft">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-navy-900">Are your products safe for children and pets?<i class="fa-solid fa-chevron-down chev text-sm text-slate-400 transition"></i></summary>
+        <p class="mt-4 leading-relaxed text-slate-600">Yes. We use biodegradable, low-residue detergents and rinse thoroughly. Tell us about allergies or sensitive fabrics when booking and we'll adjust.</p>
+      </details>
+      <details class="reveal group rounded-2xl border border-slate-200 bg-white p-6 open:shadow-soft">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold text-navy-900">Which areas do you cover?<i class="fa-solid fa-chevron-down chev text-sm text-slate-400 transition"></i></summary>
+        <p class="mt-4 leading-relaxed text-slate-600">Westlands, Kilimani, Kileleshwa and Parklands at no transport charge. We also serve Lavington, Riverside, Spring Valley, Lower Kabete and nearby areas for a flat KES 500 transport fee.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT / CTA ================= -->
+<section id="contact" class="relative overflow-hidden bg-emerald py-20 text-white">
+  <div class="grain pointer-events-none absolute inset-0"></div>
+  <div class="relative mx-auto flex max-w-5xl flex-col items-center px-4 text-center sm:px-6">
+    <h2 class="font-display text-3xl font-semibold sm:text-4xl">Ready for a home that feels new again?</h2>
+    <p class="mt-4 max-w-xl text-emerald-50">Slots this week are filling up in Kilimani and Westlands. Lock yours in now.</p>
+    <div class="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
+      <button type="button" data-open-booking class="rounded-full bg-white px-8 py-4 font-bold text-emerald-800 shadow-lift transition hover:bg-emerald-50"><i class="fa-regular fa-calendar mr-2"></i>Book a Session</button>
+      <a href="tel:+254700000000" class="rounded-full border border-white/40 px-8 py-4 font-semibold transition hover:bg-white/10"><i class="fa-solid fa-phone mr-2"></i>Call 0700 000 000</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-navy-950 text-slate-400">
+  <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4 lg:px-8">
+    <div class="md:col-span-2">
+      <p class="font-display text-xl font-semibold text-white">HavenCraft Cleaners</p>
+      <p class="mt-2 max-w-sm text-sm">Nairobi's uptown property & upholstery care. Sofa cleaning in Kilimani, move-in cleaning in Westlands, carpet steam cleaning and Airbnb turnarounds across Kileleshwa and Parklands.</p>
+      <div class="mt-5 flex gap-3 text-lg">
+        <a href="#" aria-label="Instagram" class="grid h-10 w-10 place-items-center rounded-full bg-white/5 hover:bg-white/10 hover:text-white"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="TikTok" class="grid h-10 w-10 place-items-center rounded-full bg-white/5 hover:bg-white/10 hover:text-white"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" aria-label="Facebook" class="grid h-10 w-10 place-items-center rounded-full bg-white/5 hover:bg-white/10 hover:text-white"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </div>
+    <div>
+      <p class="text-sm font-bold uppercase tracking-wider text-white">Services</p>
+      <ul class="mt-4 space-y-2 text-sm">
+        <li><a href="#services" data-tab-link="sofa" class="hover:text-white">Sofa Cleaning Nairobi</a></li>
+        <li><a href="#services" data-tab-link="carpet" class="hover:text-white">Carpet Cleaning Nairobi</a></li>
+        <li><a href="#services" data-tab-link="move" class="hover:text-white">Move-In Cleaning Westlands</a></li>
+        <li><a href="#services" data-tab-link="airbnb" class="hover:text-white">Airbnb Cleaning Kilimani</a></li>
+        <li><a href="#services" data-tab-link="routine" class="hover:text-white">Home Cleaning Kileleshwa</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="text-sm font-bold uppercase tracking-wider text-white">Contact</p>
+      <ul class="mt-4 space-y-3 text-sm">
+        <li><a href="tel:+254700000000" class="hover:text-white"><i class="fa-solid fa-phone mr-2 text-emerald"></i>0700 000 000</a></li>
+        <li><a href="https://wa.me/254700000000?text=Hi%20HavenCraft,%20I'd%20like%20to%20inquire%20about%20a%20cleaning%20session" target="_blank" rel="noopener" class="hover:text-white"><i class="fa-brands fa-whatsapp mr-2 text-emerald"></i>WhatsApp us</a></li>
+        <li><a href="mailto:hello@havencraftcleaners.co.ke" class="hover:text-white"><i class="fa-regular fa-envelope mr-2 text-emerald"></i>hello@havencraftcleaners.co.ke</a></li>
+        <li><i class="fa-regular fa-clock mr-2 text-emerald"></i>Mon to Sat, 7am to 7pm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/5 py-6 text-center text-xs">© <span id="yr"></span> HavenCraft Cleaners · Nairobi, Kenya</div>
+</footer>
+
+<!-- ================= WHATSAPP FAB ================= -->
+<a href="https://wa.me/254700000000?text=Hi%20HavenCraft,%20I'd%20like%20to%20inquire%20about%20a%20cleaning%20session"
+   target="_blank" rel="noopener"
+   class="fab-pulse group fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-[#25D366] py-3.5 pl-4 pr-5 font-bold text-white shadow-lift transition hover:bg-[#1ebe5a] sm:bottom-7 sm:right-7"
+   aria-label="Book via WhatsApp">
+  <i class="fa-brands fa-whatsapp text-2xl"></i>
+  <span class="text-sm">Book via WhatsApp</span>
+</a>
+
+<!-- ================= BOOKING MODAL ================= -->
+<div id="bookingModal" class="fixed inset-0 z-[60] hidden" role="dialog" aria-modal="true" aria-labelledby="bookingTitle">
+  <div class="absolute inset-0 bg-navy-950/70 backdrop-blur-sm" data-close-booking></div>
+  <div class="relative mx-auto flex min-h-full max-w-lg items-end sm:items-center sm:px-4 sm:py-8">
+    <div class="max-h-[92vh] w-full overflow-y-auto rounded-t-3xl bg-white shadow-lift sm:rounded-3xl">
+      <div class="flex items-start justify-between gap-4 border-b border-slate-100 p-6">
+        <div>
+          <h2 id="bookingTitle" class="font-display text-2xl font-semibold text-navy-900">Book your clean</h2>
+          <p class="mt-1 text-sm text-slate-500">Takes about 60 seconds. We confirm on WhatsApp.</p>
+        </div>
+        <button type="button" data-close-booking class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200" aria-label="Close booking form"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <form id="bookingForm" class="space-y-4 p-6" novalidate>
+        <div id="bookingSummary" class="hidden rounded-2xl bg-emerald-50 p-4 text-sm text-emerald-800"></div>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <label class="block text-sm font-semibold text-navy-900">Full name
+            <input name="name" required autocomplete="name" class="mt-1.5 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal focus:border-emerald focus:outline-none focus:ring-2 focus:ring-emerald/30" placeholder="e.g. Amina Otieno" />
+          </label>
+          <label class="block text-sm font-semibold text-navy-900">Phone (WhatsApp)
+            <input name="phone" required type="tel" inputmode="tel" autocomplete="tel" class="mt-1.5 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal focus:border-emerald focus:outline-none focus:ring-2 focus:ring-emerald/30" placeholder="07XX XXX XXX" />
+          </label>
+        </div>
+
+        <label class="block text-sm font-semibold text-navy-900" id="serviceFieldWrap">Service
+          <select name="service" class="mt-1.5 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal focus:border-emerald focus:outline-none focus:ring-2 focus:ring-emerald/30">
+            <option>Sofa Deep Extraction Cleaning</option>
+            <option>Carpet & Rug Steam Cleaning</option>
+            <option>Move-In / Move-Out Deep Cleaning</option>
+            <option>Airbnb Rapid Turnaround</option>
+            <option>Routine Home Maintenance</option>
+            <option>Not sure yet, advise me</option>
+          </select>
+        </label>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <label class="block text-sm font-semibold text-navy-900">Area
+            <select name="area" class="mt-1.5 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal focus:border-emerald focus:outline-none focus:ring-2 focus:ring-emerald/30">
+              <option>Westlands</option><option>Kilimani</option><option>Kileleshwa</option><option>Parklands</option><option>Lavington</option><option>Other</option>
+            </select>
+          </label>
+          <label class="block text-sm font-semibold text-navy-900">Estate / building
+            <input name="estate" class="mt-1.5 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal focus:border-emerald focus:outline-none focus:ring-2 focus:ring-emerald/30" placeholder="e.g. Elgon Court, Apt 4B" />
+          </label>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <label class="block text-sm font-semibold text-navy-900">Preferred date
+            <input name="date" type="date" required class="mt-1.5 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal focus:border-emerald focus:outline-none focus:ring-2 focus:ring-emerald/30" />
+          </label>
+          <fieldset class="text-sm font-semibold text-navy-900">
+            <legend>Time slot</legend>
+            <div class="mt-1.5 grid grid-cols-3 gap-2">
+              <label class="cursor-pointer"><input type="radio" name="slot" value="Morning (8am)" class="peer sr-only" checked /><span class="block rounded-xl border border-slate-300 py-3 text-center text-xs font-semibold peer-checked:border-emerald peer-checked:bg-emerald peer-checked:text-white">8am</span></label>
+              <label class="cursor-pointer"><input type="radio" name="slot" value="Midday (11am)" class="peer sr-only" /><span class="block rounded-xl border border-slate-300 py-3 text-center text-xs font-semibold peer-checked:border-emerald peer-checked:bg-emerald peer-checked:text-white">11am</span></label>
+              <label class="cursor-pointer"><input type="radio" name="slot" value="Afternoon (2pm)" class="peer sr-only" /><span class="block rounded-xl border border-slate-300 py-3 text-center text-xs font-semibold peer-checked:border-emerald peer-checked:bg-emerald peer-checked:text-white">2pm</span></label>
+            </div>
+          </fieldset>
+        </div>
+
+        <label class="block text-sm font-semibold text-navy-900">Notes (optional)
+          <textarea name="notes" rows="2" class="mt-1.5 w-full rounded-xl border border-slate-300 px-4 py-3 font-normal focus:border-emerald focus:outline-none focus:ring-2 focus:ring-emerald/30" placeholder="Fabric type, stains, pets, gate instructions..."></textarea>
+        </label>
+
+        <p id="formError" class="hidden rounded-xl bg-red-50 px-4 py-3 text-sm font-semibold text-red-700" role="alert"></p>
+
+        <button type="submit" class="flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-4 font-bold text-white shadow-soft transition hover:bg-[#1ebe5a]">
+          <i class="fa-brands fa-whatsapp text-xl"></i> Send booking on WhatsApp
+        </button>
+        <p class="text-center text-xs text-slate-400">No payment now. You pay after the job, by M-Pesa.</p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+(() => {
+  'use strict';
+
+  /* ---------- Config ---------- */
+  const WA_NUMBER = '254700000000';
+  const OUTER_AREA_FEE = 500;
+  const CORE_AREAS = ['Westlands', 'Kilimani', 'Kileleshwa', 'Parklands'];
+  const fmt = n => 'KES ' + Math.round(n).toLocaleString('en-KE');
+  const fmtRange = (a, b) => a === b ? fmt(a) : `${fmt(a)} to ${Math.round(b).toLocaleString('en-KE')}`;
+
+  /* ---------- Services data (single source for tabs + estimator) ---------- */
+  const CATEGORIES = [
+    {
+      id: 'sofa', label: 'Sofa Cleaning', icon: 'fa-couch',
+      title: 'Sofa Set Deep Extraction Cleaning',
+      blurb: 'Pre-treatment, agitation and hot-water extraction that lifts body oils, food stains and dust mites from deep in the cushions. Fabric, suede and leather.',
+      bullets: ['Stain pre-treatment & deodorising', 'Cushion zips and crevices', 'Dry in 4 to 6 hours'],
+      items: [
+        { id: 'sofa3', name: '3-Seater Sofa', min: 2500, max: 2500 },
+        { id: 'sofa5', name: '5-Seater / L-Shape', min: 4000, max: 4000 },
+        { id: 'sofa7', name: '7-Seater Sectional', min: 5500, max: 5500 }
+      ]
+    },
+    {
+      id: 'carpet', label: 'Carpets & Rugs', icon: 'fa-rug',
+      title: 'Carpet & Rug Steam Cleaning',
+      blurb: 'Deep steam cleaning for area rugs and wall-to-wall carpet. Restores pile, removes trapped grit and neutralises odours.',
+      bullets: ['Pre-vacuum & spot treatment', 'Odour neutraliser included', 'Pick-up available for large rugs'],
+      items: [
+        { id: 'rug', name: 'Small / Medium Rug', min: 1500, max: 1500 },
+        { id: 'w2w', name: 'Large Rug / Wall-to-Wall', min: 25, max: 30, perSqft: true, note: 'KES 25 to 30 per sq ft · avg KES 3,000 to 4,500' }
+      ]
+    },
+    {
+      id: 'move', label: 'Move-In / Out', icon: 'fa-box-open',
+      title: 'Move-In / Move-Out Deep Cleaning',
+      blurb: 'Top-to-bottom clean of an empty unit, done to the standard agents and landlords inspect against. Get your deposit back or move into a truly fresh home.',
+      bullets: ['Inside cabinets, oven & fridge', 'Bathroom descaling & grout', 'Windows, tracks & balcony'],
+      items: [
+        { id: 'move12', name: '1 to 2 Bedroom Apartment', min: 8000, max: 12000 },
+        { id: 'move34', name: '3 to 4 Bedroom House / Penthouse', min: 15000, max: 22000 }
+      ]
+    },
+    {
+      id: 'airbnb', label: 'Airbnb Turnaround', icon: 'fa-key',
+      title: 'Airbnb & B&B Rapid Turnaround',
+      blurb: 'Checkout to check-in ready in one visit. Built for hosts who need 5-star cleanliness reviews and photo proof after every stay.',
+      bullets: ['Linen refresh & bed styling', 'Bathroom sanitisation', 'Amenities restock & photo report'],
+      items: [
+        { id: 'bnb', name: 'Per Turnaround', min: 2000, max: 3500 }
+      ]
+    },
+    {
+      id: 'routine', label: 'Routine Cleaning', icon: 'fa-broom',
+      title: 'Routine / Occupied Home Maintenance',
+      blurb: 'Weekly or bi-weekly cleans for lived-in homes. Same trusted team each visit, working around your schedule.',
+      bullets: ['Kitchen, bathrooms & floors', 'Dusting & surface sanitising', 'Weekly & bi-weekly plans'],
+      items: [
+        { id: 'routine', name: 'Standard Visit', min: 3500, max: 3500, from: true }
+      ]
+    }
+  ];
+  const ITEMS = Object.fromEntries(CATEGORIES.flatMap(c => c.items.map(i => [i.id, { ...i, cat: c }])));
+
+  /* ---------- Nav: transparent over hero, solid on scroll ---------- */
+  const nav = document.querySelector('[data-nav]');
+  const setNav = () => {
+    const solid = window.scrollY > 40 || !document.getElementById('mobileMenu').classList.contains('hidden');
+    nav.classList.toggle('bg-white', solid);
+    nav.classList.toggle('shadow-soft', solid);
+    nav.querySelectorAll('.nav-link').forEach(el => { el.classList.toggle('!text-navy-900', solid); });
+    nav.querySelector('.nav-ink').classList.toggle('!text-navy-900', solid);
+    nav.querySelector('.nav-sub').classList.toggle('!text-emerald', solid);
+  };
+  window.addEventListener('scroll', setNav, { passive: true });
+  setNav();
+
+  const menuBtn = document.getElementById('menuBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  menuBtn.addEventListener('click', () => {
+    const open = mobileMenu.classList.toggle('hidden') === false;
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.innerHTML = open ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+    setNav();
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden'); menuBtn.setAttribute('aria-expanded', 'false');
+    menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>'; setNav();
+  }));
+
+  /* ---------- Before / after slider ---------- */
+  const baWrap = document.getElementById('baWrap');
+  document.getElementById('baRange').addEventListener('input', e => baWrap.style.setProperty('--pos', e.target.value + '%'));
+
+  /* ---------- Service tabs ---------- */
+  const tabsEl = document.getElementById('serviceTabs');
+  const panelEl = document.getElementById('servicePanel');
+
+  function priceLabel(item) {
+    if (item.perSqft) return `KES ${item.min} to ${item.max} <span class="text-sm font-medium text-slate-500">/ sq ft</span>`;
+    if (item.from) return `<span class="text-sm font-medium text-slate-500">From</span> ${fmt(item.min)}`;
+    return fmtRange(item.min, item.max);
+  }
+
+  function renderPanel(catId) {
+    const c = CATEGORIES.find(x => x.id === catId);
+    tabsEl.querySelectorAll('[role="tab"]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === catId)));
+    panelEl.innerHTML = `
+      <div class="rounded-3xl bg-navy-900 p-8 text-white lg:col-span-2">
+        <span class="grid h-14 w-14 place-items-center rounded-2xl bg-emerald text-2xl"><i class="fa-solid ${c.icon}"></i></span>
+        <h3 class="mt-6 font-display text-2xl font-semibold">${c.title}</h3>
+        <p class="mt-3 leading-relaxed text-slate-300">${c.blurb}</p>
+        <ul class="mt-6 space-y-2.5 text-sm">
+          ${c.bullets.map(b => `<li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-emerald-500"></i>${b}</li>`).join('')}
+        </ul>
+      </div>
+      <div class="space-y-4 lg:col-span-3">
+        ${c.items.map(i => `
+          <div class="flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p class="text-lg font-bold text-navy-900">${i.name}</p>
+              ${i.note ? `<p class="mt-1 text-sm text-slate-500">${i.note}</p>` : ''}
+            </div>
+            <div class="flex items-center gap-4">
+              <p class="font-display text-2xl font-semibold text-emerald">${priceLabel(i)}</p>
+              <button type="button" data-add="${i.id}" class="shrink-0 rounded-full border border-navy px-4 py-2 text-sm font-bold text-navy transition hover:bg-navy hover:text-white">
+                <i class="fa-solid fa-plus mr-1 text-xs"></i>Add
+              </button>
+            </div>
+          </div>`).join('')}
+        <p class="px-1 text-sm text-slate-500"><i class="fa-solid fa-circle-info mr-1.5 text-amber"></i>Ranges depend on size, condition and furnishing. Final price confirmed on WhatsApp before we start.</p>
+      </div>`;
+  }
+
+  tabsEl.innerHTML = CATEGORIES.map(c => `
+    <button type="button" role="tab" data-tab="${c.id}" aria-selected="false" aria-controls="servicePanel"
+      class="tab-btn flex shrink-0 items-center gap-2 rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-navy-900 transition hover:border-navy">
+      <i class="fa-solid ${c.icon}"></i>${c.label}
+    </button>`).join('');
+  tabsEl.addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b) renderPanel(b.dataset.tab); });
+  tabsEl.addEventListener('keydown', e => {
+    if (!['ArrowRight', 'ArrowLeft'].includes(e.key)) return;
+    const tabs = [...tabsEl.querySelectorAll('[role="tab"]')];
+    const i = tabs.indexOf(document.activeElement);
+    if (i < 0) return;
+    const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length];
+    next.focus(); renderPanel(next.dataset.tab);
+  });
+  document.querySelectorAll('[data-tab-link]').forEach(a => a.addEventListener('click', () => renderPanel(a.dataset.tabLink)));
+  renderPanel('sofa');
+
+  /* ---------- Estimator ---------- */
+  const state = {};           // id -> qty (or sqft for w2w)
+  const calcList = document.getElementById('calcList');
+  const calcLines = document.getElementById('calcLines');
+  const calcTotal = document.getElementById('calcTotal');
+  const calcNote = document.getElementById('calcRangeNote');
+  const calcArea = document.getElementById('calcArea');
+  const calcBook = document.getElementById('calcBook');
+
+  calcList.innerHTML = CATEGORIES.map(c => `
+    <div class="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6">
+      <p class="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-emerald"><i class="fa-solid ${c.icon}"></i>${c.title}</p>
+      <div class="mt-4 divide-y divide-slate-100">
+        ${c.items.map(i => `
+          <div class="flex flex-wrap items-center justify-between gap-3 py-3">
+            <div class="min-w-0">
+              <p class="font-semibold text-navy-900">${i.name}</p>
+              <p class="text-sm text-slate-500">${i.perSqft ? i.note : (i.from ? 'From ' + fmt(i.min) : fmtRange(i.min, i.max))}</p>
+            </div>
+            ${i.perSqft ? `
+              <label class="flex items-center gap-2 text-sm text-slate-500">
+                <input type="number" min="0" step="10" inputmode="numeric" data-sqft="${i.id}" placeholder="0"
+                  class="w-24 rounded-xl border border-slate-300 px-3 py-2 text-right font-semibold text-navy-900 focus:border-emerald focus:outline-none focus:ring-2 focus:ring-emerald/30" aria-label="${i.name} square feet" />
+                sq ft
+              </label>` : `
+              <div class="stepper flex items-center gap-1 rounded-full border border-slate-300 p-1" data-stepper="${i.id}">
+                <button type="button" data-dec class="grid h-8 w-8 place-items-center rounded-full text-navy-900 hover:bg-slate-100" aria-label="Remove one ${i.name}" disabled><i class="fa-solid fa-minus text-xs"></i></button>
+                <span class="w-7 text-center font-bold text-navy-900" data-qty aria-live="polite">0</span>
+                <button type="button" data-inc class="grid h-8 w-8 place-items-center rounded-full bg-emerald text-white hover:bg-emerald-700" aria-label="Add one ${i.name}"><i class="fa-solid fa-plus text-xs"></i></button>
+              </div>`}
+          </div>`).join('')}
+      </div>
+    </div>`).join('');
+
+  function setQty(id, qty) {
+    qty = Math.max(0, Math.min(qty, ITEMS[id].perSqft ? 20000 : 30));
+    if (qty) state[id] = qty; else delete state[id];
+    const st = calcList.querySelector(`[data-stepper="${id}"]`);
+    if (st) { st.querySelector('[data-qty]').textContent = qty; st.querySelector('[data-dec]').disabled = qty === 0; }
+    const sq = calcList.querySelector(`[data-sqft="${id}"]`);
+    if (sq && Number(sq.value) !== qty) sq.value = qty || '';
+    recalc();
+  }
+
+  function computeEstimate() {
+    let min = 0, max = 0;
+    const lines = [];
+    for (const [id, qty] of Object.entries(state)) {
+      const it = ITEMS[id];
+      const lo = it.min * qty, hi = it.max * qty;
+      min += lo; max += hi;
+      lines.push({ label: it.perSqft ? `${it.name} (${qty} sq ft)` : `${qty} × ${it.name}`, lo, hi, from: it.from });
+    }
+    const outer = lines.length && !CORE_AREAS.includes(calcArea.value);
+    if (outer) { min += OUTER_AREA_FEE; max += OUTER_AREA_FEE; lines.push({ label: 'Transport', lo: OUTER_AREA_FEE, hi: OUTER_AREA_FEE }); }
+    return { min, max, lines, hasFrom: lines.some(l => l.from) };
+  }
+
+  function recalc() {
+    const { min, max, lines, hasFrom } = computeEstimate();
+    calcTotal.textContent = lines.length ? (hasFrom && min === max ? 'From ' + fmt(min) : fmtRange(min, max)) : 'KES 0';
+    calcNote.textContent = !lines.length ? 'Add a service to begin'
+      : min === max ? (hasFrom ? 'Starting price, confirmed after a quick chat' : 'Fixed price for normal soiling')
+      : `Midpoint about ${fmt((min + max) / 2)}`;
+    calcLines.innerHTML = lines.length
+      ? lines.map(l => `<li class="flex justify-between gap-3"><span class="text-slate-300">${l.label}</span><span class="shrink-0 font-semibold">${fmtRange(l.lo, l.hi)}</span></li>`).join('')
+      : '<li class="text-slate-500">Nothing added yet.</li>';
+    calcBook.disabled = !lines.length;
+  }
+
+  calcList.addEventListener('click', e => {
+    const st = e.target.closest('[data-stepper]'); if (!st) return;
+    const id = st.dataset.stepper, cur = state[id] || 0;
+    if (e.target.closest('[data-inc]')) setQty(id, cur + 1);
+    if (e.target.closest('[data-dec]')) setQty(id, cur - 1);
+  });
+  calcList.addEventListener('input', e => {
+    const id = e.target.dataset.sqft; if (!id) return;
+    const v = Math.floor(Number(e.target.value));
+    setQty(id, Number.isFinite(v) ? v : 0);
+  });
+  calcArea.addEventListener('change', recalc);
+  document.getElementById('calcReset').addEventListener('click', () => Object.keys(state).forEach(id => setQty(id, 0)));
+
+  document.getElementById('presets').addEventListener('click', e => {
+    const b = e.target.closest('[data-preset]'); if (!b) return;
+    Object.keys(state).forEach(id => setQty(id, 0));
+    b.dataset.preset.split(',').forEach(p => { const [id, q] = p.split(':'); setQty(id, Number(q)); });
+  });
+
+  // "Add" buttons inside the service tabs push into the estimator
+  panelEl.addEventListener('click', e => {
+    const b = e.target.closest('[data-add]'); if (!b) return;
+    const id = b.dataset.add;
+    setQty(id, ITEMS[id].perSqft ? (state[id] || 120) : (state[id] || 0) + 1);
+    b.innerHTML = '<i class="fa-solid fa-check mr-1 text-xs"></i>Added';
+    b.classList.add('bg-emerald', 'border-emerald', 'text-white');
+    setTimeout(() => document.getElementById('estimator').scrollIntoView({ behavior: 'smooth' }), 350);
+  });
+  recalc();
+
+  /* ---------- Booking modal ---------- */
+  const modal = document.getElementById('bookingModal');
+  const form = document.getElementById('bookingForm');
+  const summaryEl = document.getElementById('bookingSummary');
+  const serviceWrap = document.getElementById('serviceFieldWrap');
+  const errEl = document.getElementById('formError');
+  let lastFocus = null, estimateForBooking = null;
+
+  const today = new Date(); today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
+  form.date.min = today.toISOString().slice(0, 10);
+
+  function openBooking(withEstimate) {
+    estimateForBooking = withEstimate ? computeEstimate() : null;
+    if (estimateForBooking) {
+      const e = estimateForBooking;
+      summaryEl.innerHTML = `<p class="font-bold">Your estimate: ${e.hasFrom && e.min === e.max ? 'From ' + fmt(e.min) : fmtRange(e.min, e.max)}</p>
+        <ul class="mt-1 list-inside list-disc text-emerald-700">${e.lines.map(l => `<li>${l.label}</li>`).join('')}</ul>`;
+      summaryEl.classList.remove('hidden');
+      serviceWrap.classList.add('hidden');
+      form.area.value = calcArea.value;
+    } else {
+      summaryEl.classList.add('hidden');
+      serviceWrap.classList.remove('hidden');
+    }
+    errEl.classList.add('hidden');
+    lastFocus = document.activeElement;
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => form.name.focus(), 50);
+  }
+  function closeBooking() {
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+    if (lastFocus) lastFocus.focus();
+  }
+
+  document.querySelectorAll('[data-open-booking]').forEach(b => b.addEventListener('click', () => openBooking(false)));
+  calcBook.addEventListener('click', () => openBooking(true));
+  modal.querySelectorAll('[data-close-booking]').forEach(b => b.addEventListener('click', closeBooking));
+  document.addEventListener('keydown', e => {
+    if (modal.classList.contains('hidden')) return;
+    if (e.key === 'Escape') closeBooking();
+    if (e.key === 'Tab') { // simple focus trap
+      const f = [...modal.querySelectorAll('button, input, select, textarea')].filter(el => el.offsetParent !== null);
+      const first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const d = Object.fromEntries(new FormData(form));
+    const phoneOk = /^(\+?254|0)?[17]\d{8}$/.test((d.phone || '').replace(/[\s-]/g, ''));
+    const problems = [];
+    if (!d.name.trim()) problems.push('your name');
+    if (!phoneOk) problems.push('a valid Kenyan phone number');
+    if (!d.date) problems.push('a preferred date');
+    if (problems.length) {
+      errEl.textContent = 'Please add ' + problems.join(', ') + '.';
+      errEl.classList.remove('hidden');
+      return;
+    }
+    const dateStr = new Date(d.date + 'T00:00:00').toLocaleDateString('en-KE', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' });
+    const parts = ['Hi HavenCraft, I\'d like to book a cleaning session.', ''];
+    if (estimateForBooking) {
+      const est = estimateForBooking;
+      parts.push('*Services:*', ...est.lines.map(l => '• ' + l.label));
+      parts.push(`*Estimate:* ${est.hasFrom && est.min === est.max ? 'From ' + fmt(est.min) : fmtRange(est.min, est.max)}`);
+    } else {
+      parts.push(`*Service:* ${d.service}`);
+    }
+    parts.push(
+      `*Name:* ${d.name.trim()}`,
+      `*Phone:* ${d.phone.trim()}`,
+      `*Location:* ${[d.estate.trim(), d.area].filter(Boolean).join(', ')}`,
+      `*Date:* ${dateStr}, ${d.slot}`
+    );
+    if (d.notes.trim()) parts.push(`*Notes:* ${d.notes.trim()}`);
+    window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(parts.join('\n'))}`, '_blank', 'noopener');
+    closeBooking();
+  });
+
+  /* ---------- Reveal on scroll ---------- */
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+    entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+  }, { threshold: 0.12 }) : null;
+  document.querySelectorAll('.reveal').forEach(el => io ? io.observe(el) : el.classList.add('in'));
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
