@@ -81,7 +81,7 @@ Publish one Google Post per week: an offer, a before/after, or a tip ("How to ke
 
 ### 1.7 Citations (NAP consistency)
 
-List the identical **N**ame, **A**rea and **P**hone on: Bing Places, Apple Business Connect, Facebook page, Instagram bio, Yellow Pages Kenya, BusinessList.co.ke, Jiji (service listing) and Kenya business directories. Any mismatch in phone format weakens ranking, so pick one format (`0700 000 000`) and use it everywhere.
+List the identical **N**ame, **A**rea and **P**hone on: Bing Places, Apple Business Connect, Facebook page, Instagram bio, Yellow Pages Kenya, BusinessList.co.ke, Jiji (service listing) and Kenya business directories. Any mismatch in phone format weakens ranking, so pick one format (`0769 034 501`) and use it everywhere.
 
 ---
 
@@ -110,7 +110,7 @@ Always attach 1 or 2 before/after photos. Posts with images get far more replies
 > **This week only for {group name} members:** free stain pre-treatment on any sofa booking.
 >
 > Instant price + booking: {website link}
-> WhatsApp: 0700 000 000
+> WhatsApp: 0769 034 501
 
 ### Script B: Buying & selling group (Kilimani Buying/Selling, Westlands Marketplace)
 
@@ -177,7 +177,7 @@ Retainer clients smooth out cash flow. One host with 4 units averaging 3 turnove
 >
 > Would you let us do your next turnaround at 20% off as a trial? If the photos and the guest reviews don't impress you, no obligation.
 >
-> {Name}, HavenCraft Cleaners | 0700 000 000
+> {Name}, HavenCraft Cleaners | 0769 034 501
 
 ### Follow-up sequence
 
@@ -248,7 +248,7 @@ Dirty-to-clean extraction videos are some of the most watched content in the cle
 
 Before publishing `index.html`:
 
-- [ ] Replace `254700000000` / `0700 000 000` with the real WhatsApp business number (search the file, it appears in several places including the `WA_NUMBER` constant).
+- [x] WhatsApp/call number set to 0769 034 501 (`254769034501` in wa.me links and the `WA_NUMBER` constant).
 - [ ] Replace `havencraftcleaners.co.ke` with your actual domain in the canonical, OpenGraph and JSON-LD tags.
 - [ ] Upload a 1200 × 630 `og-image.jpg` (best before/after shot) to the site root.
 - [ ] Replace the placeholder testimonials with real client reviews.
